@@ -1,0 +1,55 @@
+🚀 Flow to Deploy a Static Website on Amazon S3
+Sign in to AWS Console
+
+Go to https://aws.amazon.com/console and log in.
+
+Create an S3 Bucket
+
+Open the S3 service.
+
+Click on “Create bucket”.
+
+Give it a unique name (e.g., my-static-site).
+
+Choose the region and keep all other settings as default or adjust as needed.
+
+Uncheck Block all public access (you’ll be warned — proceed if you're okay making it public).
+
+Click Create bucket.
+
+Enable Static Website Hosting
+
+Go to the Properties tab of your bucket.
+
+Scroll to Static website hosting.
+
+Enable it and choose “Host a static website”.
+
+Set the index document (e.g., index.html), and optionally an error document (e.g., error.html).
+
+Save changes.
+
+Upload Website Files
+
+Go to the Objects tab.
+
+Click Upload > Add files.
+
+Select your index.html, style.css, script.js, etc.
+
+Click Upload.
+
+Make Files Public
+
+Select all files you uploaded.
+
+Click Actions > Make public (or use a Bucket Policy to allow public read access).
+
+Access the Website
+
+Go back to the Static website hosting section in Properties.
+
+Copy the S3 endpoint URL (something like http://my-static-site.s3-website-us-east-1.amazonaws.com).
+
+Paste it in a browser — your static website is live!
+
