@@ -18,7 +18,7 @@ HTML, CSS, JavaScript (Frontend Only)
 AWS S3 (Static Hosting)
 
 🎯 Use Case
-Perfect for simple projects like portfolios, landing pages, or small games (e.g., Dots and Boxes) without backend logic.
+Perfect for simple projects like portfolios, landing pages, or small games (e.g., Dots and Boxes).
 
 🔗 Live Example / Demo
 ![Screenshot 2025-04-05 125537](https://github.com/user-attachments/assets/fdac63b7-ee16-4155-8a40-cb3f24bffa3b)
