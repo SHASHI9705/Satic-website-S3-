@@ -2,15 +2,15 @@
 This repository demonstrates the complete flow of deploying a static website (built with HTML, CSS, and JavaScript) on Amazon S3.
 
 📋 Steps Covered
-Create an S3 bucket
+1)Create an S3 bucket
 
-Enable static website hosting
+2)Enable static website hosting
 
-Upload your static files (index.html, style.css, script.js)
+3)Upload your static files (index.html, style.css, script.js)
 
-Set proper permissions to make files public
+4)Set proper permissions to make files public
 
-Access the site via the S3 endpoint URL
+5)Access the site via the S3 endpoint URL
 
 🧩 Tech Used
 HTML, CSS, JavaScript (Frontend Only)
